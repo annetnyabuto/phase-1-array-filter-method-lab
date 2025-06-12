@@ -13,12 +13,6 @@ function fuzzyMatch(drivers, lettersToMatch){
         return driverLower.startsWith(lettersToLower);
     });
 }
-const driver=[
-    {
-        name: "John",
-        hometown: "Texas"
-    }
-];
 function matchName(drivers, namesToMatch){
     return drivers.filter(function(driver){
         return driver.name === namesToMatch
